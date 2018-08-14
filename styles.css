@@ -1,0 +1,45 @@
+h1 {
+	color: blue; 
+	font-family: helvetica
+}
+
+.items {
+	color: gray;
+}
+
+/*#title {
+	color:red;
+}*/
+
+h1:hover {
+	color:blue;
+}
+
+p::first-letter {
+	color: red;
+}
+
+/** {
+	border: 1px solid black;
+}*/
+
+p {
+	height: 100px;
+	padding: 50px;
+	background-color: yellow;
+	border: 4px dotted purple;
+	margin: 50px;
+}
+
+.container {
+	border: 2px solid purple;
+	display: flex;
+	height:100px;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.container div {
+	border: 1px solid green;
+}
+
